@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tarjeta de presentacion</string>
+    <string name="nombre">Carlos Alberto Onorio Torres</string>
+    <string name="cargo">Android developer</string>
+    <string name="telefono">123 123 12 12</string>
+    <string name="compartir">\@Android Dev</string>
+    <string name="email">caotdev22@gmail.com</string>
+</resources>

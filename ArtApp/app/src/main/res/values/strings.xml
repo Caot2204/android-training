@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ArtApp</string>
+    <string name="button_preview">Anterior</string>
+    <string name="button_next">Siguiente</string>
+    <string name="autor">Autor: %s</string>
+    <string name="titulo1">Mueca pachon</string>
+    <string name="autor1">El pachon</string>
+    <string name="titulo2">La concentracion</string>
+    <string name="autor2">Gael</string>
+    <string name="titulo3">Bebe chiquito</string>
+    <string name="autor3">Alejandro</string>
+    <string name="titulo4">Mimido</string>
+    <string name="autor4">Onorio</string>
+    <string name="titulo5">Pachon de bocina</string>
+    <string name="autor5">Pretelin</string>
+</resources>

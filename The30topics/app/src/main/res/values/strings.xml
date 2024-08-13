@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Recetas Mexicanas</string>
+
+    <string name="day">Dia %s</string>
+
+    <string name="titulo_1">Tacos</string>
+    <string name="titulo_2">Enchiladas</string>
+    <string name="titulo_3">Chile en Nogada</string>
+    <string name="titulo_4">Pozole Rojo</string>
+    <string name="titulo_5">Mole Poblano</string>
+    <string name="titulo_6">Barbacoa de Res</string>
+    <string name="titulo_7">Tortas Ahogadas</string>
+    <string name="titulo_8">Tlacoyos de Frijol</string>
+    <string name="titulo_9">Pambazo</string>
+    <string name="titulo_10">Memelas</string>
+    <string name="titulo_11">Tamales</string>
+    <string name="titulo_12">Tinga de Pollo</string>
+    <string name="titulo_13">Ceviche de Pescado</string>
+    <string name="titulo_14">Huachinango a la Veracruzana</string>
+    <string name="titulo_15">Calabacitas a la Mexicana</string>
+    <string name="titulo_16">Bacalao a la Mexicana</string>
+    <string name="titulo_17">Huevo con salchicha y frijoles</string>
+    <string name="titulo_18">Caldo de Pollo</string>
+    <string name="titulo_19">Puchero</string>
+    <string name="titulo_20">Coctel de Camarón</string>
+    <string name="titulo_21">Empanadas</string>
+    <string name="titulo_22">Tacos Dorados</string>
+    <string name="titulo_23">Huevo en Chilpachole</string>
+    <string name="titulo_24">Huevos Estrellados</string>
+    <string name="titulo_25">Huevo Estrellados con Arroz</string>
+    <string name="titulo_26">Atún a la Mexicana</string>
+    <string name="titulo_27">Garnachas</string>
+    <string name="titulo_28">Huaraches</string>
+    <string name="titulo_29">Huevo con Longaniza</string>
+    <string name="titulo_30">Enfrijoladas</string>
+
+    <string name="descripcion_1">Comida a base de tortilla doblada con algun tipo de carne dentro</string>
+    <string name="descripcion_2">Tortillas bañadas en salsa de tomate con queso espolvoreado</string>
+    <string name="descripcion_3">Un platillo icónico de las fiestas patrias, relleno de picadillo y cubierto con salsa de nuez y granada. ¡Una explosión de colores y sabores!</string>
+    <string name="descripcion_4">Una sopa espesa a base de maíz, carne de cerdo y chiles secos. Perfecta para compartir en familia</string>
+    <string name="descripcion_5">Una compleja salsa de chiles, chocolate y especias que se sirve con pollo o pavo. ¡Una delicia!</string>
+    <string name="descripcion_6">Carne de res cocida lentamente en hojas de maguey. Acompáñala con tortillas y salsa</string>
+    <string name="descripcion_7">Bolillos rellenos de carnitas bañados en salsa de tomate. ¡Una explosión de sabor!</string>
+    <string name="descripcion_8">Masa de maíz rellena de frijoles y acompañada de nopales. ¡Deliciosos!</string>
+    <string name="descripcion_9">Bolillos empapados en salsa roja y rellenos de papa y chorizo</string>
+    <string name="descripcion_10">Tortillas gruesas con carne, frijoles, queso y salsa. ¡Un antojito imperdible!</string>
+    <string name="descripcion_11">Los tamales se cocinan en paquetes envueltos en hojas vegetales con algun tipo de carne. Estas hojas pueden ser de milpa o de maíz, plátano, carrizo, chilaca o papatla</string>
+    <string name="descripcion_12">Pollo deshebrado en una salsa de tomate y chipotle, servido en tacos o tostadas. Perfecto para una comida rendidora y económica</string>
+    <string name="descripcion_13">Pescado fresco marinado en jugo de limón con cebolla, cilantro y chiles. Ideal para los días calurosos</string>
+    <string name="descripcion_14">Filete de huachinango (pargo rojo) cocido con una salsa de jitomate, aceitunas, alcaparras y chiles. Un platillo clásico de la costa veracruzana.</string>
+    <string name="descripcion_15">Calabacitas tiernas salteadas con cebolla, jitomate y chiles. Acompañan perfectamente cualquier comida. </string>
+    <string name="descripcion_16">Bacalao desmenuzado en una salsa de jitomate, aceitunas y alcaparras. Tradicional en la época de Cuaresma</string>
+    <string name="descripcion_17">Huevo revuelto con trozos de salchicha, acompañados con frijol.</string>
+    <string name="descripcion_18">Pollo en agua con trozos de papa, zanahoria y calabazas cocidas.</string>
+    <string name="descripcion_19">Pollo en agua con arroz y trozos de papa.</string>
+    <string name="descripcion_20">Mezcla de algunos tipos de salsa, aguacate y camarones.</string>
+    <string name="descripcion_21">Tortilla doblada frita con relleno de queso de hebra derretido.</string>
+    <string name="descripcion_22">Tortilla enrollada frita con relleno de pure de papa, ademas dee queso fresco espolvoreado.</string>
+    <string name="descripcion_23">Huevos estrellados en caldo de tomate con epazote.</string>
+    <string name="descripcion_24">Huevo frito en aceite.</string>
+    <string name="descripcion_25">Huevo frito en aceite, acompañado de arroz y salsa de tomate.</string>
+    <string name="descripcion_26">Atún cocido acompañado de tomate, cebolla y chile picado.</string>
+    <string name="descripcion_27">Tortilla frita de maiz con frijoles machacados, queso, lechuga y algún tipo de carne.</string>
+    <string name="descripcion_28">Tortilla hecha a base de maíz, servido con comúnmente con bistec, huevo o costilla de cerdo.</string>
+    <string name="descripcion_29">Huevo revuelto acompañado de longaniza frita.</string>
+    <string name="descripcion_30">Tortilla de maiz enrollada o doblada bañada en frijol licuado con queso rallado.</string>
+
+    <string name="descripcion_label">Descripcion:</string>
+    <string name="expandir">Mostrar descripcion de la receta</string>
+
+</resources>
