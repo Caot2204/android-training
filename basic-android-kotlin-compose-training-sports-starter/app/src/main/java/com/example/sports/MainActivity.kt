@@ -13,7 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.reply
+
+package com.example.sports
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -25,26 +26,27 @@ import androidx.compose.foundation.layout.calculateEndPadding
 import androidx.compose.foundation.layout.calculateStartPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Surface
 import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSizeClassApi
-import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalLayoutDirection
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.reply.ui.ReplyApp
-import com.example.reply.ui.theme.ReplyTheme
+import com.example.sports.ui.SportsApp
+import com.example.sports.ui.theme.SportsTheme
 
+/**
+ * Activity for Sports app
+ */
 class MainActivity : ComponentActivity() {
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContent {
-            ReplyTheme {
+            SportsTheme {
                 val layoutDirection = LocalLayoutDirection.current
-                Surface(
+                Surface (
                     modifier = Modifier
                         .padding(
                             start = WindowInsets.safeDrawing.asPaddingValues()
@@ -54,41 +56,11 @@ class MainActivity : ComponentActivity() {
                         )
                 ) {
                     val windowSize = calculateWindowSizeClass(this)
-                    ReplyApp(
+                    SportsApp(
                         windowSize = windowSize.widthSizeClass
                     )
                 }
             }
-        }
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun ReplyAppCompactPreview() {
-    ReplyTheme {
-        Surface {
-            ReplyApp(WindowWidthSizeClass.Compact)
-        }
-    }
-}
-
-@Preview(showBackground = true, widthDp = 700)
-@Composable
-fun ReplyAppMediumPreview() {
-    ReplyTheme {
-        Surface {
-            ReplyApp(WindowWidthSizeClass.Medium)
-        }
-    }
-}
-
-@Preview(showBackground = true, widthDp = 1000)
-@Composable
-fun ReplyAppExpandedPreview() {
-    ReplyTheme {
-        Surface {
-            ReplyApp(WindowWidthSizeClass.Expanded)
         }
     }
 }
